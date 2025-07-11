@@ -2,7 +2,10 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "POLKA - Bisnis Digital",
+  title: {
+    template: "POLKA - Bisnis Digital",
+    default: "POLKA - Bisnis Digital", 
+  },
   description: "Created by Reunia Sapti Azahra ",
   generator: "v0.dev",
 };

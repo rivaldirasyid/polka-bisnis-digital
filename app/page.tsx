@@ -1,4 +1,12 @@
 "use client"
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: {
+    absolute: "POLKA - Bisnis Digital",
+  },
+  description: "Created by Reuina Sapti Azzahra",
+}
 
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
